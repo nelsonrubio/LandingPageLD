@@ -608,14 +608,23 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-round-wrap {
+	
 	position: relative;
 	max-width: 40vw;
 }
 
 @media (min-width: 992px) {
 	.box-round-wrap {
+		top: 40px;
 		left: 12vw;
 		top: -38px;
+	}
+}
+
+@media (min-width: 412px) {
+	.box-round-wrap {
+		top: 40px;
+	
 	}
 }
 
@@ -668,7 +677,14 @@ a[href*='tel'], a[href*='mailto'] {
 	}
 }
 
+@media only screen and (max-width: 412px) {
+	.box-round-wrap {
+		top: 40px !important;
+	}
+  }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
+
 	.box-custom-2-smal {
 		right: auto;
 		left: 50%;
