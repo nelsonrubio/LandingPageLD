@@ -179,6 +179,7 @@ h1[data-subtext]::before,
 .swiper-slide-active h1[data-subtext]::before, .swiper-slide-active
 .heading-1[data-subtext]::before {
 	opacity: 1;
+	display: none;
 }
 
 @media (min-width: 992px) {
